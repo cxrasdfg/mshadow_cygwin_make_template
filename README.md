@@ -1,0 +1,2 @@
+# mshadow_cygwin_make_template
+# mshadow_cygwin_make_template
