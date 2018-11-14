@@ -1,0 +1,36 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        // {
+        //     "label": "cmake",
+        //     "type": "shell",
+        //     "options": {
+        //         "cwd": "${workspaceRoot}/build"
+        //     },
+        //     "command": "cmake ..",
+        // },
+        {
+            "label": "make",
+            "type": "shell",
+            "options": {
+                // "cwd": "${workspaceRoot}/build"
+            },
+            "command": "make",
+            "dependsOn": ["cmake"]
+
+        },
+        {
+            "label": "build",
+            "type": "shell",
+            "options": {
+                // "cwd": "${workspaceRoot}/build"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            
+            "dependsOn": ["make"]
+        }
+    ]
+}

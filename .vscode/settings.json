@@ -1,0 +1,25 @@
+{
+    "python.pythonPath": "C:\\Users\\theppsh\\Anaconda3",
+    "window.zoomLevel": 2,
+    "workbench.colorTheme": "Solarized Light",
+    "git.path": "C:\\cygwin64\\bin\\git.exe",
+    // "cmake.debugConfig": {
+    //     "miDebuggerPath": "C:\\cygwin64\\bin\\gdb.exe",
+    //     "externalConsole": true,   
+    //     "stopAtEntry": false   
+    // },
+    // "cmake.cmakePath": "D:\\software\\cmake-3.11.1-win64-x64\\bin\\cmake.exe",
+    // use cygwin terminal...
+    "terminal.integrated.shell.windows": "C:\\cygwin64\\bin\\bash.exe",
+    "terminal.integrated.env.windows": {
+        "CHERE_INVOKING": "1"
+    },
+    "terminal.integrated.shellArgs.windows": [
+        "--login",
+        "-i"
+    ],
+    "cmake-tools-helper.cmake_download_path": "C:\\Users\\theppsh\\.vscode\\extensions\\maddouri.cmake-tools-helper-0.2.1\\cmake_download",
+    "files.associations": {
+        "*.cuh": "cpp"
+    }
+}
